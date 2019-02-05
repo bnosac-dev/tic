@@ -205,7 +205,8 @@ DoPushDeploy <- R6Class(
     },
 
     check = function() {
-      !ci()$is_tag()
+      #!ci()$is_tag()
+      TRUE
     },
 
     prepare = function() {
